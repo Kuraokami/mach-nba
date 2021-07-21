@@ -24,7 +24,7 @@ With the current data, the tallest players are at 177 Inches, the Shortest playe
 
 ## Run tests
 
-
+```
 pytest                           // runs all tests in all folders recursively
 pytest -v                        // verbose output
 
