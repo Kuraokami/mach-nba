@@ -20,11 +20,11 @@ This project connects to NBA data to find various data
 where height must be written in inches.
 
 With the current data, the tallest players are at 177 Inches, the Shortest players are at 139 Inches
-```
+
 
 ## Run tests
 
-```
+
 pytest                           // runs all tests in all folders recursively
 pytest -v                        // verbose output
 
