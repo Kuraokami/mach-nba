@@ -8,8 +8,9 @@ This project connects to NBA data to find various data
 
 
 ## Installation
+I strongly recommend to use a Virtual Environment for this project.
 
-### pytest
+### pytest and requests
 
 ```pip install pytest``` and ```pip install requests```
 
@@ -19,7 +20,10 @@ This project connects to NBA data to find various data
 
 where height must be written in inches.
 
-With the current data, the tallest players are at 177 Inches, the Shortest players are at 139 Inches
+
+Example: ```python nba/nba_finder.py 177```
+
+With the current data, the tallest players are at 177 Inches, and the Shortest players are at 139 Inches
 
 
 ## Run tests
