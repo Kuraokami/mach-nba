@@ -24,7 +24,7 @@ def test_get_really_short_stars():
     results = findPairs(players, 139)
     assert len(results) == 2
     
-# Verify Brevin Knight is one of the Shortest players
+# Verify Nate Robinson is one of the Shortest players
 # ----------------------------------------------------
 def test_verify_nate_robinson_is_one_of_the_shortest_stars():
     results = findPairs(players, 139)

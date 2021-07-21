@@ -13,6 +13,14 @@ This project connects to NBA data to find various data
 
 ```pip install pytest``` and ```pip install requests```
 
+## Run in console
+
+```python nba/nba_finder.py _height_```
+
+where height must be written in inches.
+
+With the current data, the tallest players are at 177 Inches, the Shortest players are at 139 Inches
+```
 
 ## Run tests
 
@@ -20,7 +28,6 @@ This project connects to NBA data to find various data
 pytest                           // runs all tests in all folders recursively
 pytest -v                        // verbose output
 
-pytest -k test_add               // specific test
 pytest tests                     // specific test package
 pytest tests/test_nba_finder.py  // specific test module
 
